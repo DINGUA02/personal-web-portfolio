@@ -7,7 +7,7 @@ import js from '../assets/techStack/js.svg';
 import react from '../assets/techStack/react.svg';
 import tailwind from '../assets/techStack/tailwind.svg';
 import linkedinIcon from '../assets/Socials/linkedinIcon.svg';
-import gitlab from '../assets/Socials/gitlab.svg';
+import github from '../assets/Socials/github.svg';
 import gmail from '../assets/Socials/gmail.svg';
 
 export const projects =  [
@@ -15,7 +15,7 @@ export const projects =  [
         id: 'P1',   
         title: 'workoutwith Bro',
         type: 'Workout Routine App',   
-        gitLab: 'https://gitlab.com/uplift-code-camp/web-dev-pro/wdp-batch-5/DJ/projects/-/tree/js-api-app',
+        gitHub: 'https://github.com/DINGUA02/workout-with-bro',
         website: 'https://workoutwithbro.netlify.app/',
         image : project1Image,
         techstacks: ['HTML', 'CSS', 'JavaScript',],
@@ -25,7 +25,7 @@ export const projects =  [
         id: 'P2',   
         title: 'Shopeeng!',
         type: 'E-commerce Product Showcase', 
-        gitLab: 'https://gitlab.com/uplift-code-camp/web-dev-pro/wdp-batch-5/DJ/projects/-/tree/react-ecommerce-app?ref_type=heads',
+        gitHub: 'https://github.com/DINGUA02/shopeeng-ecommerce-app',
         website: 'https://shopeeng.netlify.app/',
         image : project2Image,
         techstacks: ['HTML', 'CSS', 'JavaScript', 'REACT'],
@@ -35,7 +35,7 @@ export const projects =  [
         id: 'P3',   
         title: 'LockedIn',
         type: 'Job Listing Aggrgator Web App (mobile-first)',  
-        gitLab: 'https://gitlab.com/uplift-code-camp/web-dev-pro/wdp-batch-5/DJ/projects/-/tree/react-app?ref_type=heads',
+        gitHub: 'https://github.com/DINGUA02/lockedin-job-aggregator-app',
         website: 'https://lockedin01.netlify.app/',
         image : project3Image,
         techstacks: ['HTML', 'CSS', 'JavaScript', 'REACT', 'TAILWIND'],
@@ -80,9 +80,9 @@ export const socials = [
     },
     {
         id: 'S2',
-        name: 'Gitlab',
-        image: gitlab,
-        link: 'https://gitlab.com/dashboard/projects'
+        name: 'GitHub',
+        image: github,
+        link: 'https://github.com/DINGUA02'
     },
     {
         id: 'S3',

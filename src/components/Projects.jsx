@@ -30,11 +30,11 @@ export const Projects = () => {
                                         alt="top-right-arrow icon"
                                         className="w-6" />
                                     </a>
-                                    <a href={project.gitLab}
+                                    <a href={project.gitHub}
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         className="flex items-end hover:scale-110">
-                                        <p className="text-sm text-orange-600">Gitlab</p>
+                                        <p className="text-sm text-orange-600">GitHub</p>
                                         <img 
                                         src={orangeTopRightArrow}
                                         alt="top-right-arrow icon"
