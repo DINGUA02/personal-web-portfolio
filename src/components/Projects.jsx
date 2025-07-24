@@ -1,6 +1,6 @@
 import { projects } from "../utilities/constants";
 import topRightArrow from "../assets/toprightarrow.svg"
-import orangeTopRightArrow from "../assets/orangetoprightarrow.svg"
+import cyanTopRightArrow from "../assets/cyantoprightarrow.svg"
 
 export const Projects = () => {
     return(
@@ -34,11 +34,11 @@ export const Projects = () => {
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         className="flex items-end hover:scale-110">
-                                        <p className="text-sm text-orange-600">GitHub</p>
+                                        <p className="text-sm text-cyan-500">GitHub</p>
                                         <img 
-                                        src={orangeTopRightArrow}
+                                        src={cyanTopRightArrow}
                                         alt="top-right-arrow icon"
-                                        className="w-5"/>
+                                        className="w-4"/>
                                     </a>
                                 </div>
                                 <h3 className="text-sm">({project.type})</h3>
@@ -47,7 +47,7 @@ export const Projects = () => {
                             <div className="flex flex-wrap gap-2">
                                 {project.techstacks.map((techStack,index) => (
                                     <div key={techStack+index} className="bg-neutral-900 p-2 rounded-lg md:p-1" >
-                                        <p className="text-cyan-200 text-sm">{techStack}</p>
+                                        <p className="text-orange-600 text-sm">{techStack}</p>
                                     </div>
                                     ))}
                             </div>        
