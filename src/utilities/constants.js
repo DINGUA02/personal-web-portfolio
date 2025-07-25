@@ -6,7 +6,7 @@ import css from '../assets/techStack/css.svg';
 import js from '../assets/techStack/js.svg';
 import react from '../assets/techStack/react.svg';
 import tailwind from '../assets/techStack/tailwind.svg';
-import linkedinIcon from '../assets/Socials/linkedinIcon.svg';
+import linkedinicon from '../assets/Socials/linkedinicon.svg';
 import github from '../assets/Socials/github.svg';
 import gmail from '../assets/Socials/gmail.svg';
 
@@ -75,7 +75,7 @@ export const socials = [
     {
         id: 'S1',
         name: 'LinkedIn',
-        image: linkedinIcon,
+        image: linkedinicon,
         link: 'https://www.linkedin.com/in/david-joshua-ingua-53a5ab185'
     },
     {
