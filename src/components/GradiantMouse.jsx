@@ -1,7 +1,6 @@
 import { useEffect } from "react";
 
 export const GradientMouse = ({ children }) => {
-    if (window.innerWidth < 768) return;
 
     useEffect(()=>{
         const gradient = document.getElementById('gradient-mouse');
